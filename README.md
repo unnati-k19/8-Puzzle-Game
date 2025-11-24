@@ -18,11 +18,11 @@ Your system must have Python 3.x installed.
 
 ~ RUNNING THE GAME ~
 
-*Save the code : The supplied Python code should be saved as a file, such as eight_puzzle.py.
+* Save the code : The supplied Python code should be saved as a file, such as eight_puzzle.py.
 
-*Run from the terminal: Locate the directory in which you saved the file, open your terminal or command prompt, and execute.
+* Run from the terminal: Locate the directory in which you saved the file, open your terminal or command prompt, and execute.
                                                                                       
-    python eight_puzzle.py
+      python eight_puzzle.py
 
 ~ INSTRUCTIONS FOR GAME ~
 
@@ -38,7 +38,7 @@ The intended state is:
 
 The bottom-right corner should contain the empty space, denoted by 0 in the code.
 
-*Input Commands: Type your move's single letter.
+* Input Commands: Type your move's single letter.
 
  U: In the empty space, move the tile up (i.e., move the empty space down).
 
@@ -58,8 +58,8 @@ The Inversion RuleMaking sure the puzzles are solvable is a critical component o
  
 Only when the configuration of the 8-Puzzle has an even number of inversions can it be solved.
  
-*Inversion: An inversion happens when a tile A comes before a tile B in the board's one-dimensional sequence (reading row-by-
- row), but A > B . In this count, the empty tile (0) is ignored in this count.
+* Inversion: An inversion happens when a tile A comes before a tile B in the board's one-dimensional sequence (reading row-by-
+ row),but value of A > value of B . In this count, the empty tile (0) is ignored in this count.
 
 ~ IMPROVEMENTS AND FUTURE WORK ~
 
