@@ -4,7 +4,7 @@ This is a Python command-line version of the traditional 8-Puzzle game, also cal
 The objective of the game is to arrange the eight numbered tiles in a 3 × 3 grid into a target configuration by sliding the 
 tiles into the empty space.
 
-FEATURES 
+~ FEATURES ~
 
 Solvable Boards Only : By counting the number of inversions, the game ensures that each initial board generated is solvable.
 
@@ -12,30 +12,33 @@ Command Line Interface: A straightforward text-based gaming interface.
 
 Move Counter: Counts how many moves are needed to complete the puzzle.
 
-HOW TO PLAY
+~ HOW TO PLAY ~
 
 Your system must have Python 3.x installed.
 
-Running the Game
-Keep the code safe: The supplied Python code should be saved as a file, such as eight_puzzle.py.
+~ RUNNING THE GAME ~
 
-Run from the terminal: Locate the directory in which you saved the file, open your terminal or command prompt, and execute.
+*Save the code : The supplied Python code should be saved as a file, such as eight_puzzle.py.
 
-INSTRUCTIONS FOR GAME
+*Run from the terminal: Locate the directory in which you saved the file, open your terminal or command prompt, and execute.
+                                                                                      
+    python eight_puzzle.py
+
+~ INSTRUCTIONS FOR GAME ~
 
 A randomly generated, solvable board will be shown at the beginning of the game.
 
 The intended state is:
 
- | 1 | 2 | 3 |
+    | 1 | 2 | 3 |
  
- | 4 | 5 | 6 |
+    | 4 | 5 | 6 |
  
- | 7 | 8 | _ |
+    | 7 | 8 | _ |
 
 The bottom-right corner should contain the empty space, denoted by 0 in the code.
 
-Input Commands: Type your move's single letter.
+*Input Commands: Type your move's single letter.
 
  U: In the empty space, move the tile up (i.e., move the empty space down).
 
@@ -49,16 +52,16 @@ Input Commands: Type your move's single letter.
 
 When the board matches the WIN_STATE, the game is over.
 
-VERIFICATION OF SOLVABILITY
+~ VERIFICATION OF SOLVABILITY ~
 
 The Inversion RuleMaking sure the puzzles are solvable is a critical component of this project.
  
 Only when the configuration of the 8-Puzzle has an even number of inversions can it be solved.
  
-Inversion: An inversion happens when a tile A comes before a tile B in the board's one-dimensional sequence (reading row-by-
+*Inversion: An inversion happens when a tile A comes before a tile B in the board's one-dimensional sequence (reading row-by-
  row), but A > B . In this count, the empty tile (0) is ignored in this count.
 
-IMPROVEMENTS AND FUTURE WORK
+~ IMPROVEMENTS AND FUTURE WORK ~
 
 Use A* search or another intelligent search algorithm to solve the puzzle automatically.
 
